@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/faunalia_logo.png</file>
+        <file>icons/selection.png</file>
+    </qresource>
+</RCC>
