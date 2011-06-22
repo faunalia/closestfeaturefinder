@@ -23,7 +23,7 @@ email                : brush.tyler@gmail.com
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 
-import resources
+import resources_rc
 
 class FeatureFinderPlugin:
 
