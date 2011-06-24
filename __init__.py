@@ -30,10 +30,10 @@ def authorName():
 	return "Giuseppe Sucameli (Faunalia)"
 
 def icon():
-	return "selection.png"
+	return "icons/selection.png"
 
 def version():
-	return "0.5"
+	return "0.6"
 
 def qgisMinimumVersion():
 	return "1.0"

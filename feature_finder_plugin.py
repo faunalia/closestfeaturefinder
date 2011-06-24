@@ -33,7 +33,7 @@ class FeatureFinderPlugin:
 	def initGui(self):
 		self.wdg = None
 
-		self.action = QAction( QIcon( ":/icons/selection.png" ), "Closest Feature Finder Plugin", self.iface.mainWindow() )
+		self.action = QAction( QIcon( ":/plugins/ClosestFeatureFinder/icons/selection.png" ), "Closest Feature Finder Plugin", self.iface.mainWindow() )
 		self.action.setCheckable(True)
 		QObject.connect( self.action, SIGNAL( "triggered()" ), self.start )
 
