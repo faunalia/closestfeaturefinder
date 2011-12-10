@@ -37,7 +37,7 @@ class FeatureFinderPlugin:
 		self.action.setCheckable(True)
 		QObject.connect( self.action, SIGNAL( "triggered()" ), self.start )
 
-		self.aboutAction = QAction("About", self.iface.mainWindow())
+		self.aboutAction = QAction( QIcon( ":/plugins/ClosestFeatureFinder/icons/about.png" ), "About", self.iface.mainWindow())
 		QObject.connect( self.aboutAction, SIGNAL("triggered()"), self.about )
 
 		self.iface.addToolBarIcon( self.action )
